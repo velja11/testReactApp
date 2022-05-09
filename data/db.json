@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Machine 3",
+      "author": "John",
+      "desc": "Lorem ipsum 3...",
+      "id": 4
+    },
+    {
+      "title": "Machine 2",
+      "author": "Peter",
+      "desc": "Lorem ipsum 2....\n\n",
+      "id": 5
+    }
+  ]
+}

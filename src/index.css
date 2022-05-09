@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.navigat{
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px #c6e7e3;
+  
+
+}
+
+.navigat:hover{
+  box-shadow: 2px 2px #c6e7e3;
+}
+
+.navlista{
+  display: flex;
+}
+
+.navlista li{
+  list-style-type: none;
+  padding: 10px;
+  
+}
+
+.navlista a{
+  text-decoration: none;
+}
+
+.blog-item a {
+  text-decoration: none;
+}
+
+.navlista a:hover{
+  color: purple;
+  font-weight: bold;
+}
+
+.first-item{
+  margin-right: 600px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: purple;
+}
+
+.blog-item{
+  padding: 3px;
+}
+
+.blog-item h1{
+  color: purple;
+}
+
+.blog-item:hover{
+  box-shadow: 1px 1px #eeeaea;
+  width: 50%;
+  cursor: pointer;
+  
+}
+
+form input {
+  display: block;
+  margin: 0 auto 4px;
+  height: 30px;
+}
+textarea {
+  display: block;
+  margin: 0 auto;
+}
+
+#buttonAdd{
+  width: 175px;
+  background-color: greenyellow;
+}
+
+form input, textarea, button{
+  width: 35%;
+}
+
+.details button{
+  background-color: red;
+}
+
+#deleteBtn{
+  width: 175px;
+}
